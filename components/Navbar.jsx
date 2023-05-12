@@ -24,7 +24,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
-          <Image src={logo} alt="logo" className="w-28 md:w-36"/>
+          <Image src={logo} alt="logo" className="w-28 md:w-36" />
         </Link>
         <ul className="hidden md:flex justify-between items-center gap-6">
           {navItems.map((nav, index) => (
@@ -35,7 +35,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <Button tittle="Start a Project"/>
+        <Button tittle="Start a Project" />
       </div>
     </motion.nav>
   );
