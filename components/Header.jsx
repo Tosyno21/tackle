@@ -9,7 +9,7 @@ const Header = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="bg-gradient-to-r from-violet-500 to-red-500 px-2 py-4"
+      className="bg-gradient-to-r from-violet-500 to-red-500 px-3 py-3 md:py-4"
     >
       <div className="container mx-auto flex justify-between items-center gap-8 md:justify-center">
         <motion.p
@@ -25,7 +25,7 @@ const Header = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
           href="/"
-          className="flex justify-between items-center text-white gap-2 hover:text-[#efedfd]"
+          className="flex justify-between items-center text-white gap-2 hover:text-[#efedfd] text-[14px] md:text-[16px] font-medium"
         >
           Visit Course
           <span>
