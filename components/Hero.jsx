@@ -30,14 +30,16 @@ const Hero = () => {
           transition={{ duration: 5 }}
           className="mb-12 text-[16px] text-gray-200 xs:text-[18px] xs:mb-16 xl:text-[20px] xl:max-w-[600px] mx-auto"
         >
-          Welcome to Tackle Technologies, where creativity meets innovation to create
-          extraordinary digital experiences.
+          Welcome to Tackle Technologies, where creativity meets innovation to
+          create extraordinary digital experiences.
         </motion.p>
         <motion.a
           initial={{ y: 100, opacity: 0, scale: 0.8 }}
           animate={{ y: 0, opacity: 1, scale: 1 }}
           transition={{ duration: 2, delay: 1 }}
-          className="px-6 p-2 md:px-8 md:py-3 bg-white font-medium text-[#140e2f] text-[16px] md:text-[14px] lg:text-[18px] rounded-md shadow-lg hover:bg-[#6246ea] hover:text-white" href="/">
+          className="px-8 py-3 bg-white font-medium text-[#140e2f] text-[16px] lg:text-[18px] rounded-md shadow-lg hover:bg-[#6246ea] hover:text-white"
+          href="/"
+        >
           Contact Us
         </motion.a>
       </div>
